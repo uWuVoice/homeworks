@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background: #84A4D5;
+}
+.banner {
+	display: flex;
+	justify-content: center;
+	max-width: 900px;
+	margin: auto;
+	margin-top: 100px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.24) 15px 15px 15px;
+}
+.block {
+	width: 50%;
+	padding: 30px;
+	text-align: center;
+	color: #5D6EC8;
+}
+.title {
+	letter-spacing: 3px;
+	margin-top: 35px;
+}
+.text {
+	margin: 20px 0;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.price {
+	font-weight: bold;
+	font-size: 16px;
+}
+span {
+	font-weight: 900;
+	font-size: 25px;
+}
